@@ -32,7 +32,7 @@ void loop() {
     Serial.println(2*y[0]);
   }
 
-  delay(15); // Espera 20ms
+  delay(15); // Espera 15ms
   for(int i = 1; i >= 0; i--){
     x[i+1] = x[i]; // guarda xi
     y[i+1] = y[i]; // guarda yi
